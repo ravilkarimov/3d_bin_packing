@@ -16,7 +16,7 @@ st.title("3D Bin Packing by Devs")
 B_COL1, B_COL2 = st.columns(2)
 with B_COL1:
 
-    st.subheader("Параметры главного параллелипида")
+    st.subheader("Параметры главного параллелелипида")
     col1, col2, col3 = st.columns(3)
     with col1:
         width = st.number_input('Ширина', 1, 100, 10)
@@ -27,7 +27,7 @@ with B_COL1:
     box = Box(width, height, length)
 
     # TODO: add option to manually add rectangles
-    st.subheader("Параметры случайной генерации параллелипидов для упаковки")
+    st.subheader("Параметры случайной генерации параллелелипидов для упаковки")
     num_boxes = st.number_input('Количество коробок для генерации', 1, 50, 10)
     col1, col2 = st.columns(2)
     with col1:
